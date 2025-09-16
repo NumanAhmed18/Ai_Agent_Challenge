@@ -1,0 +1,16 @@
+# Core parser dependencies
+pandas
+PyPDF2
+regex  # optional but useful for advanced regex (you can also just use 're' builtin)
+
+# LLM / LangChain stack
+langchain
+langgraph
+langchain-groq   # for ChatGroq
+openai           # if you plan to use OpenAI models
+
+# Testing
+pytest
+
+# Optional but common
+python-dotenv    # if you store API keys in a .env file
